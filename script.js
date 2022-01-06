@@ -54,6 +54,7 @@ function setValues() {
         handleStyle[propertie](localStorage[propertie]);
         controles.elements[propertie].value = localStorage[propertie];
     });
+    showCss();
 }
 
 function showCss() {
